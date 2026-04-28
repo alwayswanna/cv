@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <meta name="description" content="Gleb Abakshin — Senior Java Software Engineer with 5+ years of experience in Spring Boot, microservices, and backend systems. Open to EU relocation and remote work.">
+  <meta name="keywords" content="Java, Spring Boot, Software Engineer, Backend Developer, Gleb Abakshin, CV, Resume">
+  <meta name="author" content="Gleb Abakshin">
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gleb Abakshin — Java Software Engineer">
+  <meta property="og:description" content="Senior Java Software Engineer with 5+ years of experience. Spring Boot, microservices, Kubernetes, PostgreSQL.">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Gleb Abakshin — Java Software Engineer">
+  <meta name="twitter:description" content="Senior Java Software Engineer. Spring Boot, microservices, open to EU relocation.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="G.A. Resume">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Gleb Abakshin — Java Software Engineer</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+<script>
+  // Prints resume by injecting HTML into a hidden iframe,
+  // completely bypassing Flutter's canvas so the full page is captured.
+  window.printResumeHtml = function(htmlContent) {
+    const iframe = document.createElement('iframe');
+    iframe.style.cssText = 'position:fixed;right:0;bottom:0;width:0;height:0;border:0;visibility:hidden;';
+    document.body.appendChild(iframe);
+
+    const doc = iframe.contentDocument || iframe.contentWindow.document;
+    doc.open();
+    doc.write(htmlContent);
+    doc.close();
+
+    // Double rAF ensures the iframe content is fully rendered before printing.
+    requestAnimationFrame(function() {
+      requestAnimationFrame(function() {
+        iframe.contentWindow.focus();
+        iframe.contentWindow.print();
+        document.body.removeChild(iframe);
+      });
+    });
+  };
+</script>
+<script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

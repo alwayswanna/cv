@@ -1,39 +1,202 @@
 {
-  "personal-data": "Hi, my name is Gleb. I'm Java/Kotlin - developer 1.5 of years experience, think scale grade knowledge is Middle/Middle-. I work in finance sphere, create microservices for business purposes.\n\nIn free time from work, I create useless and simple projects on Github:) I have small experience writing frontend applications with Flutter.\n\nGood luck!",
-  "year-of-experience": "2 years.",
-  "skills": {
-    "Java/Kotlin": 4,
-    "Spring Boot/Spring Cloud": 4,
-    "String Security/OAuth2": 3,
-    "Keycloak": 3,
-    "Hibernate/JPA:": 4,
-    "Postgres/MySQL/MongoDB": 3,
-    "Helm Charts/K8s": 2,
-    "Gradle/Maven": 4,
-    "RabbitMQ": 3,
-    "Jira/Gitlab/Azure": 3
-  },
+  "last-updated": "April 2026",
+  "personal-data": "Experienced Java Developer with 7+ years of hands-on expertise in designing, developing, and optimizing robust backend systems. Passionate about writing clean, efficient code and implementing scalable solutions using modern Java ecosystem (Spring Boot, Hibernate, microservices).\n\nKey Strengths:\n✔ Reliable & detail-oriented — Proven track record of delivering high-quality code on time\n✔ Quick learner — Adapts seamlessly to new technologies and frameworks\n✔ Team player — Collaborative mindset with excellent communication skills\n✔ Problem solver — Analytical approach to debugging and system optimization\n✔ Tech enthusiast — Actively adopts and explores emerging technologies to deliver modern solutions\n\nTechnical Highlights:\n\nBackend development (Java, Spring, REST APIs, SQL, Message Brokers)\nPerformance tuning (JVM, database queries, caching)\nCI/CD pipelines\nAgile methodologies (Scrum/Kanban)",
+  "skills": [
+    "Java",
+    "Kotlin",
+    "Spring Boot",
+    "Spring Security",
+    "Hibernate",
+    "Postgres",
+    "Oracle",
+    "Kubernetes",
+    "Maven",
+    "Kafka",
+    "RabbitMQ",
+    "CI/CD",
+    "Flutter",
+    "Vue3",
+    "Go",
+    "go-chi",
+    "wire"
+  ],
   "work-experience": [
     {
-      "company": " OOO Аукционы Федерации",
-      "period": "12.2018 - 03.2020",
-      "responsibilities": "\uD83D\uDCCEProcessing applications from users\n \n\uD83D\uDCCECreating tickets in the integrator's bug tracking system\n \n\uD83D\uDCCEProviding technical support to users",
-      "skills": "📎Linux \n📎CSS \n📎HTML",
-      "job": "Technical support specialist"
+      "company": "K-SOFT ENGINEERING",
+      "period": "12.2018 - 09.2021",
+      "position": "Automation QA Engineer",
+      "projects": [
+        {
+          "name": "KSE-Platform",
+          "description": "The SCADA system is actively deployed at industrial facilities within the oil and gas sector. Its primary customers include companies such as Gazprom, Rosneft, and Bashneft.",
+          "period": "12.2018 - 09.2021",
+          "skills": [
+            "Java",
+            "Modbus",
+            "JavaFX",
+            "Spring Boot",
+            "Winium (Selenium)",
+            "Google API"
+          ],
+          "responsibilities": [
+            "Developed and executed test plans for SCADA system components – including RTUs, PLCs, HMI interfaces, and communication protocols to ensure reliable data acquisition and control functionality",
+            "Performed regression and integration testing after system updates or configuration changes, validating alarm handling, historical data logging, and overall Runtime and Studio stability",
+            "Developed a server for distributing accompanying technical documentation for the KSE Platform",
+            "Developed a platform based on Spring Boot and JavaFX for running automated tests",
+            "Developed test cases and reports within the platform for automated testing of the SCADA system"
+          ]
+        }
+      ]
     },
     {
-      "company": " K-SOFT ENGINEERING",
-      "period": "03.2020 - 09.2021",
-      "responsibilities": "📎Creation of accompanying software\n \n📎Improvement and expansion of the functionality of autotests\n \n📎Optimization of development processes",
-      "skills": "📎Java 11 \n📎Gradle \n📎JavaFx \n📎Spring Framework \n📎Selenium \n📎Google API \n📎PDFBox \n📎Linux",
-      "job": "QA-engineer (automation)"
+      "company": "FG BCS",
+      "period": "09.2021 - 06.2023",
+      "position": "Java Software Developer",
+      "projects": [
+        {
+          "name": "-",
+          "description": "Worked as part of a dedicated team responsible for Keycloak development. Within the company's overall architecture, Keycloak served as the central authorization point for bank employees and clients.",
+          "period": "09.2021 - 06.2023",
+          "skills": [
+            "Java 11",
+            "Spring Boot",
+            "PostgreSQL",
+            "WildFly",
+            "Infinispan",
+            "OKD OpenShift",
+            "OAuth2.0"
+          ],
+          "responsibilities": [
+            "Development of themes for Keycloak",
+            "Development of new authorization flows within Keycloak",
+            "Implementation of information security (IS) requirements",
+            "Writing integration tests",
+            "Development of new microservices (implementation of QR-based authorization)"
+          ]
+        },
+        {
+          "name": "ARMDF",
+          "description": "ARMDF (Automated Workplace for Financial Monitoring Department) — a microservices-based system with extensive internal and external integrations. Services communicate via REST API and RabbitMQ; external integrations are handled through REST API and SOAP.",
+          "period": "02.2022 - 06.2023",
+          "skills": [
+            "Java 17",
+            "Spring Boot",
+            "RabbitMQ",
+            "PostgreSQL",
+            "Elasticsearch",
+            "Logstash",
+            "Kibana",
+            "OKD OpenShift",
+            "OAuth2.0",
+            "SOAP",
+            "Testcontainers",
+            "JUnit"
+          ],
+          "responsibilities": [
+            "Development of new microservices",
+            "Implementation of business requirements",
+            "Development of internal starters to accelerate the development cycle",
+            "Implementation of network integrations (SOAP, REST API)",
+            "Architecture analysis, active participation in brainstorming sessions",
+            "Implementation of a fault-tolerant and scalable system",
+            "Conducting code review"
+          ]
+        }
+      ]
     },
     {
-      "company": " BCS FinTech",
-      "period": "09.2021 - nowadays",
-      "responsibilities": "📎Creation of accompanying software\n \n📎Improvement and expansion of the functionality of autotests\n \n📎Optimization of development processes",
-      "skills": "📎Java 8-11 \n📎Kotlin \n📎Docker \n📎Openshift \n📎OKD \n📎Maven \n📎Spring Boot \n📎Spring WebFlux \n📎RabbitMQ \n📎PostgreSQL \n📎GitlabCI \n📎ELK \n📎OAuth2 \n📎Keycloak",
-      "job": "Java developer"
+      "company": "Sovcombank",
+      "period": "06.2023 - 06.2024",
+      "position": "Middle Java Software Developer",
+      "projects": [
+        {
+          "name": "CRM",
+          "description": "Corporate CRM system for omnichannel communication between the bank and its customers (B2C and B2B). The CRM has a monolithic architecture.",
+          "period": "06.2023 - 06.2024",
+          "skills": [
+            "Java 8 / 11 / 17 / 21",
+            "Spring",
+            "OAuth2",
+            "Oracle",
+            "JDBC",
+            "k8s",
+            "Vue2",
+            "Vue3",
+            "Kafka",
+            "Gitlab CI/CD"
+          ],
+          "responsibilities": [
+            "Implemented supporting libraries",
+            "Implemented new features based on business requirements",
+            "Conducted deep refactoring of the system",
+            "Conducted code reviews and mentored new employees",
+            "Optimized CI/CD pipelines and application delivery processes following best practices",
+            "Actively participated in architectural meetings",
+            "Applied Strangler Fig pattern to decompose the monolith into microservices"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Sovcombank",
+      "period": "06.2024 - present",
+      "position": "Senior Java Software Developer",
+      "projects": [
+        {
+          "name": "CRM",
+          "description": "Corporate CRM system for omnichannel communication between the bank and its customers (B2C and B2B). The CRM has a monolithic architecture.",
+          "period": "06.2024 - present",
+          "skills": [
+            "Java 21",
+            "Spring Boot",
+            "OAuth2",
+            "Oracle",
+            "JDBC",
+            "k8s",
+            "Vue2",
+            "Vue3",
+            "Kafka",
+            "Gitlab CI/CD"
+          ],
+          "responsibilities": [
+            "Implementation of a centralized user entry point, development of a microservice for user authorization and authentication",
+            "Implementation of the API Gateway pattern",
+            "Refactoring of the project, introducing best practices",
+            "Mentoring employees, conducting training sessions",
+            "Implementation of a gateway for sending notifications to employees and company clients"
+          ]
+        },
+        {
+          "name": "Higress & Temporal",
+          "description": "Project for the implementation of the Temporal & Higress platform into the banking infrastructure.",
+          "period": "03.2026 - present",
+          "skills": [
+            "Go",
+            "go-chi",
+            "fx",
+            "MCP"
+          ],
+          "responsibilities": ["Development according to the specified requirements"]
+        }
+      ]
     }
-  ]
+  ],
+  "social-links": {
+    "facebook": "facebook.com/abakshin.gleb.1",
+    "linkedIn": "linkedin.com/in/alwayswanna",
+    "habrCareer": "career.habr.com/alwayswanna",
+    "github": "github.com/alwayswanna",
+    "email": "a.gleb@yahoo.com"
+  },
+  "mainInfo": {
+    "firstName": "Gleb",
+    "lastName": "Abakshin",
+    "position": "Senior Java Software Engineer",
+    "birthDate": "17.02.1998",
+    "currentLocation": "Russia, Saint Petersburg",
+    "addition": "Open to EU relocation | Remote",
+    "education": "Higher (bachelor's degree)",
+    "photoFallbackLink": "https://habrastorage.org/getpro/moikrug/uploads/user/100/052/676/1/avatar/c0e5414fafc4282bb46d38923b69a5f3.png",
+    "photoLink": "https://media.licdn.com/dms/image/v2/C5603AQE89rNdXabmcg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660840501573?e=1778716800&v=beta&t=iqUkVOnqzkyEagbZciM2Txwh0W5g5AzeYGMEr1IAn_I"
+  }
 }
